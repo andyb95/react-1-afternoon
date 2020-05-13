@@ -1429,7 +1429,7 @@ export default class Sum extends Component {
   }
 
   add(num1, num2) {
-    this.setState({ sum: num1 + num2 });
+    this.state.sum = number1 + number2
   }
 
   render() {
